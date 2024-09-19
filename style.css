@@ -1,0 +1,62 @@
+.siteheader h1{
+    margin-left: 110px;
+}
+
+.emojis{
+    width: 800px;
+    margin: 5px auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(4 ,auto);
+}
+
+.emoji{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.emoji .icon{
+    order: -1;
+    font-size: 40px;
+}
+
+.emoji h2{
+    align-self: flex-start;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
+.emoji p{
+    margin-top: -5px;
+    flex-grow: 1;
+    align-self: flex-start;
+    width: 92%;
+}
+
+.emoji a{
+    text-decoration: none;
+    color: #fff;
+    background-color: darkviolet;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+
